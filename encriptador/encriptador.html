@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+            <h1><img class="logo" src="imagenes/logo.png" alt="logo candado"></h1>
+            <p>Encriptador Alura</p>
+            </div>
+        </header>
+        <main>
+            
+                    <div class="parte1">
+                         <textarea placeholder="Escribe tu mensaje aqui!" class="texto" id="texto"></textarea>
+                    </div>  
+                    <div class="botones">
+                        <p>Solo letras minusculas sin acentos</p>
+                        <input type="button" id="boton_Enc" value="Encriptar" class="boton_Enc">
+                        <input type="button" id="boton_Des" value="Desencriptar" class="boton_Des">
+                    </div>
+
+                    <div class="parrafo" id="parrafo">
+                    <h2><img class="lupa" src="imagenes/logo_lupa.png" alt="lupa"></h2>
+                        <p>Nada por mostrar aun</p>
+                    </div>
+                
+            </section>   
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>
+<!--La letra "e" es convertida para "enter"
+La letra "i" es convertida para "imes"
+La letra "a" es convertida para "ai"
+La letra "o" es convertida para "ober"
+La letra "u" es convertida para "ufat" -->

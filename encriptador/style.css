@@ -1,0 +1,112 @@
+body
+{
+    font-family: 'Inconsolata', monospace;
+}
+header
+{
+    width: 100%;
+    background: skyblue;
+    padding: 20px;
+}
+header p
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+.encabezado
+{
+    width: 950px;
+    height: 150px;
+    
+    position: relative;
+    margin: 0 auto;
+}
+main
+{
+    width: 100%;
+    padding: 20px;
+    background: whitesmoke;
+    display: inline-flex;
+}
+div
+{
+    margin: 20px auto;
+}
+.texto
+{
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    text-align:center;
+    position: relative;
+}
+.botones
+{
+    justify-content:flex-end;
+    text-align: center;
+    margin-top: 330px;
+}
+.botones p
+{
+    margin-bottom: 10px;
+}
+.boton_Enc
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: royalblue;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+    padding: 25px;
+    margin: auto 5px;
+}
+.boton_Enc:hover
+{
+  background: blue;
+  border: royalblue solid 1px;
+  transform: scale(105%);
+}
+.boton_Des
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+    padding: 25px;
+    margin: auto 5px;
+}
+.boton_Des:hover
+{
+  background: cyan;
+  transform: scale(105%);
+  border: lightblue solid 1px;
+}
+.parrafo
+{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.lupa
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
